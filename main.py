@@ -1,3 +1,6 @@
+# global variable for tasks list
+tasks = []
+
 # Function to display a menu
 def display_menu():
     print('To-Do List Application')
@@ -6,4 +9,3 @@ def display_menu():
     print('3. Delete Task')
     print('4. Exit')
 
-    
