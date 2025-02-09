@@ -2,6 +2,7 @@ from menu import display_menu
 from tasks import load_tasks, save_tasks, add_task, view_tasks, delete_task, mark_task_completed
 def main():
     load_tasks()
+    print('Welcome to the To-Do List App by John H!')
     while True:
         display_menu()
 
