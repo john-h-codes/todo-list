@@ -9,3 +9,4 @@ This console-based To-Do list application has 5 functions:
   5. Exit Program - (Duh)
 
 The only real upgrade over the most basic task manager is that the tasks are saved to a .txt file that is automatically referenced each time the program is opened, allowing the user to close the program without losing the task list.
+To practice creating more "professional" programs, the program is split into 3 separate .py files ('main', 'menu', and 'tasks')
