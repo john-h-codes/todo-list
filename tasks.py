@@ -63,7 +63,7 @@ def mark_task_completed():
     while True:
         print('** MARK A TASK AS COMPLETED **')
         view_tasks()
-        completed_task = input('>>>Select completed task #: ')
+        completed_task = input('>>>Select completed task number: ')
         if completed_task.isdigit():
             task_index = int(completed_task) - 1
             if 0 <= task_index < len(tasks):
