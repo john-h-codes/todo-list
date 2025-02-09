@@ -5,9 +5,10 @@ def main():
     while True:
         display_menu()
 
-        select_option = int(input('\tSelect menu option (number): '))
-
+        select_option = int(input('>>>Select menu option: '))
+        print('\n')
         if select_option == 1:
+            print('** VIEW TASKS **')
             view_tasks()
         elif select_option == 2:
             add_task()

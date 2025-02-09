@@ -1,3 +1,4 @@
 clean floors
 clean out fridge
-get groceries
+fold laundry
+wash the car
