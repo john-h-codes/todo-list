@@ -6,7 +6,8 @@ def main():
         display_menu()
 
         select_option = int(input('>>>Select menu option: '))
-        print('\n')
+
+        print('')
         if select_option == 1:
             print('** VIEW TASKS **')
             view_tasks()
