@@ -1,0 +1,3 @@
+clean floors
+clean out fridge
+get groceries
